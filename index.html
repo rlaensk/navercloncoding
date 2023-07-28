@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1">
+    <link rel="stylesheet" href="css/index.css">
+    <title>NAVER</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header-center-box">
+            <div class="header-icon-box">
+                <div class="header-hamburger">
+                    <span class="blind">햄버거메뉴</span>
+                    <button class="hamburger-btn"></button>
+                </div>
+                <div class="header-naverpay">
+                    <sapn class="blind">네이버페아</sapn>
+                    <a href="https://nid.naver.com/nidlogin.login?url=http%3A%2F%2Fnew-m.pay.naver.com%2Fpcpay"
+                        class="naver-pay-icon"></a>
+                </div>
+                <div class="header-arlam">
+                    <span class="blind">알림</span>
+                    <button class="header-notice"></button>
+                </div>
+            </div>
+
+            <div class="topsearchwrap">
+                <div class="search-box">
+                    <div class="naver-logo">
+                        <h1 class="logo-img">
+                            <a href="https://www.naver.com" class="logo-naverhome1">
+                                <img src="img/upload_1684217675277OZzsu.gif" width="58px" height="58px" alt="naver.com">
+                            </a>
+                            <a href="https://www.naver.com" class="logo-naverhome2">
+                                <span class="naver-link-logo">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span class="blind">NAVER</span>
+                            </a>
+                            <form action="">
+                                <fieldset>
+                                    <legend class="blind">searchbox</legend>
+                                    <input id="query" name="query" type="search" title="검색어를 입력해 주세요."
+                                        placeholder="검색어를 입력해 주세요." maxlength="255" autocomplete="off"
+                                        class="search_input" data-atcmp-element="">
+                                    <button type="submit" class="search-btn">
+                                        <span class="search-btn-img"></span>
+                                        <span class="blind">검색</span>
+                                    </button>
+                                </fieldset>
+                            </form>
+                            <div class="seach-keybord">
+                                <span class="blind">보안키보드</span>
+                                <button class="search-key-btn"></button>
+                                <span class="blind">자동완성</span>
+                                <button class="auto-search-btn"></button>
+                            </div>
+
+                        </h1>
+                    </div>
+                </div>
+                <div class="naver-icon">
+                    <div class="naver-icon-item-center">
+                        <ul class="naver-icon-box">
+                            <li class="naver-icon-item">
+                                <a href="https://mail.naver.com" class="naver-mail-link" target="_blank">
+                                    <span class="service-icon mail-icon type-service"></span>
+                                    <span class="service-name">메일</span>
+                                    <span class="blind">메일</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://cafe.naver.com" class="naver-cafe-link" target="_blank">
+                                    <span class="service-icon cafe-icon type-service"></span>
+                                    <span class="service-name">카페</span>
+                                    <span class="blind">카페</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://blog.naver.com" class="naver-blog-link" target="_blank">
+                                    <span class="service-icon blog-icon type-service"></span>
+                                    <span class="service-name">블로그</span>
+                                    <span class="blind">블로그</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://shopping.naver.com" class="naver-shopping-link" target="_blank">
+                                    <span class="service-icon shopping-icon type-service"></span>
+                                    <span class="service-name">쇼핑</span>
+                                    <span class="blind">쇼핑</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://news.naver.com" class="naver-news-link" target="_blank">
+                                    <span class="service-icon news-icon type-service"></span>
+                                    <span class="service-name">뉴스</span>
+                                    <span class="blind">뉴스</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://finance.naver.com" class="naver-finace-link" target="_blank">
+                                    <span class="service-icon finance-icon type-service"></span>
+                                    <span class="service-name">증권</span>
+                                    <span class="blind">증권</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://land.naver.com" class="naver-land-link" target="_blank">
+                                    <span class="service-icon land-icon type-service"></span>
+                                    <span class="service-name">부동산</span>
+                                    <span class="blind">부동산</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://map.naver.com" class="naver-map-link" target="_blank">
+                                    <span class="service-icon map-icon type-service"></span>
+                                    <span class="service-name">지도</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="https://comic.naver.com" class="naver-comic-link" target="_blank">
+                                    <span class="service-icon comic-icon type-service"></span>
+                                    <span class="service-name">웹툰</span>
+                                    <span class="blind">웹툰</span>
+                                </a>
+                            </li>
+                            <li class="naver-icon-item">
+                                <a href="#" class="naver-more-see-link" role="button">
+                                    <span class="more-see more-icon service-icon type-service"></span>
+                                    <span class="blind">바로가기 펼침</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main-wrap">
+            <div class="layout-left">
+                <div class="event-benner">
+                    <a href="#">
+                        <img src="img/event-benner.jpg" alt="">
+                    </a>
+                </div>
+                <div class="news-stand">
+                    <div class="newsstandlist-box">
+                        <div class="news-list">
+                            <ul class="news-list-area">
+                                <li class="news-list-li">
+                                    <span class="news-list-box">
+                                        <a href="#" class="news-stand1 news-stand-area">뉴스스탠드</a>
+                                        <a href="#" class="news-stand2 news-stand-area">언론사편집</a>
+                                    </span>
+                                </li>
+                                <li class="news-list-enter">
+                                    <a href="#" class="news-stand-area enter">엔터</a>
+                                    <span class="blind">엔터</span>
+                                </li>
+                                <li class="news-list-sports">
+                                    <a href="#" class="news-stand-area sports">스포츠
+                                        <span class="live">LIVE</span>
+                                    </a>
+                                    <span class="blind">스포츠 </span>
+                                </li>
+                                <li>
+                                    <a href="#" class="news-stand-area Economy">경제</a>
+                                    <span class="blind">경제</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="news-num">
+                        <a href="#">전체언론사
+                            <i class="squer"></i>
+                        </a>
+                        <div class="newskind-all">
+                            <a href="#" class="newsall">연합뉴스</a>
+                            <div class="news-collect">
+                                <div class="news-box">
+                                    <a href="#">與 윤리위, 오늘 '수해 골프' 홍준표 징계 수위 결정</a>
+                                </div>
+                                <div class="news-home">
+                                    <ul class="newshome-ul">
+                                        <li class="newshome-stand">
+                                            <a href="https://newsstand.naver.com/">뉴스스탠드</a>
+                                        </li>
+                                        <li class="newshome-home">
+                                            <a href="https://news.naver.com/">뉴스홈</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newspaper">
+                        <div class="news-paper-box">
+                            <div class="newspaper-line">
+                                <i class="line-right1 line-module"></i>
+                                <i class="line-right2 line-module"></i>
+                                <i class="line-right3 line-module"></i>
+                                <i class="line-bottom1 line-module"></i>
+                                <i class="line-bottom2 line-module"></i>
+                                <i class="line-bottom3 line-module"></i>
+                                <i class="line-bottom4 line-module"></i>
+                                <i class="line-bottom5 line-module"></i>
+                            </div>
+                            <div class="paper-news">
+                                <div class="news-paper-line">
+                                    <div class="newspaper1">
+                                        <a href="">
+                                            <img src="	https://s.pstatic.net/static/newsstand/2019/logo/011.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper2">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/022.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper3">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/366.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper4">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/021.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper5">
+                                        <a href="">
+                                            <img src="	https://s.pstatic.net/static/newsstand/2020/logo/light/0604/015.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper6">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/up/2020/0708/nsd94830278.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="news-paper-line">
+                                    <div class="newspaper2-1">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/020.png
+                                            " alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper2-2">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/117.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper2-3">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/293.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper2-4">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/038.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper2-5">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/044.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper2-6">
+                                        <a href="">
+                                            <img src="	https://s.pstatic.net/static/newsstand/2020/logo/light/0604/055.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="news-paper-line">
+                                    <div class="newspaper3-1">
+                                        <a href="">
+                                            <img src="	https://s.pstatic.net/static/newsstand/2020/logo/light/0604/904.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper3-2">
+                                        <a href="">
+                                            <img src="	https://s.pstatic.net/static/newsstand/2020/logo/light/0604/047.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper3-3">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/215.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper3-4">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/339.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper3-5">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/up/2022/0704/nsd231551300.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper3-6">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/338.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="news-paper-line">
+                                    <div class="newspaper4-1">
+                                        <a href="">
+                                            <img src="	https://s.pstatic.net/static/newsstand/2020/logo/light/0604/816.png
+                                            " alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper4-2">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/up/2022/1024/nsd174430433.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper4-3">
+                                        <a href="">
+                                            <img src="	https://s.pstatic.net/static/newsstand/2020/logo/light/0604/243.png
+                                            " alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper4-4">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/243.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper4-5">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/up/2023/0330/nsd10125746.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="newspaper4-6">
+                                        <a href="">
+                                            <img src="https://s.pstatic.net/static/newsstand/up/2022/0615/nsd7251644.png"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-stand-buttom">
+                        <div class="news-stand-box">
+                            <button type="button" class="news-icon1 news-icon" role="radio"></button>
+                            <button type="button" class="news-icon2 news-icon" role="radio"></button>
+                        </div>
+                        <div class="news-stand-arrow">
+                            <button class="prev" type="button" role="radio"></button>
+                            <div class="current">
+                                <span class="currentpasing-text">언론사
+                                    <span class="currentpasing-point-text">더보기</span>
+                                </span>
+                                <span class="current-n">
+                                    1
+                                    <span class="blind">페이지</span>
+                                </span>
+                                <span class="current-allP">
+                                    <span class="blind">전체페이지</span>
+                                    /
+                                    4
+                                </span>
+                            </div>
+                            <button class="next" type="button" role="radio"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping">
+                    <div class="shopping-list">
+                        <ul class="shopping-ul">
+                            <li class="shopping1">
+                                <span class="blind">쇼핑</span>
+                                <a href="">쇼핑</a>
+                            </li>
+                            <li class="shopping-mar shopping2">
+                                <span class="blind">맨즈</span>
+                                <a href="">맨즈</a>
+                            </li>
+                            <li class="shopping-mar shopping3">
+                                <span class="blind">원쁠딜</span>
+                                <a href="">원쁠딜</a>
+                            </li>
+                            <li class="shopping-mar shopping4">
+                                <span class="blind">쇼핑라이브</span>
+                                <a href="">쇼핑라이브</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shopping-menu">
+                        <div class="shopping-menu-box">
+                            <a href="#" class="sh-me-text">오늘의 혜택</a>
+                            <span class="mall-img">
+                                <img src="https://s.pstatic.net/shopping.phinf/20230523_26/0e20d198-b64e-450e-ae90-bdc4603e2188.jpg"
+                                    alt="">
+                            </span>
+                            <span class="menu-text">
+                                <a href="#">노티드 여름 맞이 신상 도넛 ~G마켓에서
+                                    <span class="text-point">20% 특가로 맛봐!</span>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="shopping-pazing-box">
+                            <div class="pazing-number">
+                                <span class="current__">1
+                                    <span class="blind">페이지</span>
+                                </span>
+                                <span class="total-page">
+                                    <span class="blind">전체</span>
+                                    /
+                                    18
+                                </span>
+                            </div>
+                            <button class="prev-btn arrow-num-btn">
+                                <i class="arrow-prev arrow-main">
+                                    <span class="blind">이전페이지</span>
+                                </i>
+                            </button>
+                            <button class="next-btn arrow-num-btn">
+                                <i class="arrow-next arrow-main">
+                                    <span class="blind">다음페이지</span>
+                                </i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="product_box_all">
+                        <div class="product-box">
+                            <div class="product-all">
+                                <ul class="proudcut-img-box">
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4">
+                                                    <span class="Hotel_item_img">
+                                                        <img src="	https://s.pstatic.net/shopping.phinf/20230726_14/d9e87e58-7cee-4a2d-9640-21eb07420062.jpg?type=f500"
+                                                            alt="땀으로 젖은 빨래? 카포드로 한번에">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">땀으로 젖은 빨래?</div>
+                                                <div class="Hotelitem_text1">카포트로 한번에~</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://s.pstatic.net/shopping.phinf/20230717_3/46f3a9cd-6423-44ec-9004-c38f74e3c5d3.jpg?type=f500">
+                                                    <span class="Hotel_item_img">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20230717_3/46f3a9cd-6423-44ec-9004-c38f74e3c5d3.jpg?type=f500"
+                                                            alt="고급SET 최대 90% 어딜가도~극찬!">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">고급진SET최대90%</div>
+                                                <div class="Hotelitem_text1">어딜가도~극찬!</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4">
+                                                    <span class="Hotel_item_img">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20230717_15/5bdab361-d657-4d60-ab5f-c6fb9fa6dae7.jpg?type=f500"
+                                                            alt="BEST 여름 출근룩
+                                                        최대50% 반값세일">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">BEST 여름 출근룩</div>
+                                                <div class="Hotelitem_text1">최대50% 반값세일</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4">
+                                                    <span class="sale-benner">타임특가</span>
+                                                    <span class="Hotel_item_img">
+                                                        <img src="	https://s.pstatic.net/shopping.phinf/20230724_16/de7fde2f-5e61-4484-9969-1cb6d82112c7.jpg?type=f500"
+                                                            alt="직장인 혼밥템~
+                                                        냉장고에쟁여놔!">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">직장인 혼밥템~</div>
+                                                <div class="Hotelitem_text1">냉장고에쟁여놔!</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4">
+                                                    <span class="sale-benner">타임특가</span>
+                                                    <span class="Hotel_item_img">
+                                                        <img src="	https://s.pstatic.net/shopping.phinf/20230711_11/9addbca0-6452-484c-b363-8b9f237f24de.jpg?type=f500"
+                                                            alt="악취빨래엔 위칙
+                                                        소독 섬유유연제!">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">악취빨래엔 위칙</div>
+                                                <div class="Hotelitem_text2">소독 섬유유연제!</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4">
+                                                    <span class="sale-benner">이벤트중</span>
+                                                    <span class="Hotel_item_img">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20230703_9/ed085953-6855-4132-bca2-c4598ebed053.jpg?type=f500"
+                                                            alt="신상특가30%할인
+                                                        14K 금테크반지">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">신상특가30%할인</div>
+                                                <div class="Hotelitem_text1">14K 금테크반지</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4">
+                                                    <span class="Hotel_item_img">
+                                                        <img src="	https://s.pstatic.net/shopping.phinf/20230726_25/4d7b9c6d-40ae-4a35-9254-1d80cfe0f3f7.jpg?type=f500"
+                                                            alt="200만장 콜라겐팩
+                                                        40대라면 꼭사">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">200만장 콜라겐팩</div>
+                                                <div class="Hotelitem_text1">40대라면 꼭사</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="Hotelitem_column">
+                                        <div class="Hotelitem_column_box">
+                                            <div class="Hotelitem_img_box">
+                                                <a
+                                                    href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4">
+                                                    <span class="Hotel_item_img">
+                                                        <img src="	https://s.pstatic.net/shopping.phinf/20230712_12/efeec180-f4f8-4eea-b43f-c88b72ba34cf.jpg?type=f500"
+                                                            alt="UP TO 90%
+                                                        전품목세일 무배">
+                                                    </span>
+                                                    <span class="blind">상품레이어 열기</span>
+                                                </a>
+                                            </div>
+                                            <a href="https://wlcshop.co.kr/product/detail.html?product_no=237&utm_source=Naver%20DA&utm_medium=plus%20shoping%20box&NaPm=ct%3Dlkkjp6o0%7Cci%3Dc451e150d1a33c8dbfa041a259439a5dc41b9b4a%7Ctr%3Dsbsh%7Csn%3D1165128%7Cic%3D%7Chk%3D80ada39abd38fd81c174b6410b522e20b737bde4"
+                                                target="_blank" class="Hotelitem_text_box">
+                                                <div class="Hotelitem_text1">UP TO 90%</div>
+                                                <div class="Hotelitem_text1">전품목세일 무배</div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mall-product"></div>
+
+                        </div>
+                        <div class="contant-box">
+                            <a href="#" class="contant-main">
+                                <strong>듀벨 Dewbell</strong>
+                            </a>
+
+                            <div class="contant-item-box">
+                                <span class="contant-item">
+                                    <a
+                                        href="https://brand.naver.com/dewbell/products/7763586648/?nt_source=naver&nt_medium=shopping&nt_detail&cafe_mkt=nfbox_a02&NaPm=ct%3Dlkkvi9wo%7Cci%3Da7095a5c613ebd6809f51e0da49243d49f5a68dc%7Ctr%3Dsbsb%7Csn%3D262277%7Cic%3D%7Chk%3De7d09723e68a699824ac9f010491fd4704ea4108">
+                                        <img
+                                            src="https://s.pstatic.net/shopping.phinf/20230711_18/00ddde28-a369-487a-8cf3-09fa48909740.jpg">
+                                        <span class="text-contant text_1">꼬임물때방지</span>
+                                    </a>
+                                </span>
+                                <span class="contant-item">
+                                    <a
+                                        href="https://brand.naver.com/dewbell/products/5870027685/?nt_source=naver&nt_medium=shopping&nt_detail&cafe_mkt=nfbox_a03&NaPm=ct%3Dlkkviie8%7Cci%3Dd160fcd2f57927c37743bc099f926c384d0b9e3c%7Ctr%3Dsbsb%7Csn%3D262277%7Cic%3D%7Chk%3D16be364f240c30312687194ef5ab3144ca418f49">
+                                        <img
+                                            src="https://s.pstatic.net/shopping.phinf/20230712_29/aead847c-da5a-4423-85d6-f83393d89c0b.jpg">
+                                        <span class="text-contant text_2">물청소끝판왕</span>
+                                    </a>
+                                </span>
+                                <span class="contant-item contant-item1">
+                                    <a
+                                        href="https://brand.naver.com/dewbell/products/548739835/?nt_source=naver&nt_medium=shopping&nt_detail&cafe_mkt=nfbox_a01&NaPm=ct%3Dlkkweaoo%7Cci%3Dbf8b92ac6b68fa95d9bea01c7ddf7754e4aa6ad4%7Ctr%3Dsbsb%7Csn%3D262277%7Cic%3D%7Chk%3D119f8b05c80ef1a9755c5039f9fbc3f473df5cda">
+                                        <img
+                                            src="https://s.pstatic.net/shopping.phinf/20230713_8/1c61a5bd-f3fb-4494-81b4-c96492c10e0d.jpg">
+                                        <p class="text_tw">걱정NO~ 깨끗한 물을 위한 첫시작!</p>
+                                        <strong class="contant-price">15,900원</strong>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-stand-buttom buttom-shopping">
+                        <div class="news-stand-box">
+                            <button type="button" class="news-icon1 news-icon" role="radio"></button>
+                            <button type="button" class="news-icon2 news-icon" role="radio"></button>
+                        </div>
+                        <div class="news-stand-arrow">
+                            <button class="prev" type="button" role="radio"></button>
+                            <div class="current">
+                                <span class="currentpasing-text">쇼핑아이템
+                                    <span class="currentpasing-point-text">더보기</span>
+                                </span>
+                                <span class="current-n">
+                                    1
+                                    <span class="blind">페이지</span>
+                                </span>
+                                <span class="current-allP">
+                                    <span class="blind">전체페이지</span>
+                                    /
+                                    18
+                                </span>
+                            </div>
+                            <button class="next" type="button" role="radio"></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="layout-right">
+                <div class="login">
+                    <span class="login-text">네이버를 더 안전하고 편리하게 이용하세요</span>
+                    <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https://www.naver.com/"
+                        class="login-link">
+                        <span class="login-logo-img"></span>
+                        <span class="login-text1">로그인</span>
+                    </a>
+                    <div class="login-kind">
+                        <a href="https://nid.naver.com/mobile/user/global/idInquiry?lang=en_US" class="first-li">아이디
+                            찾기</a>
+                        <a href="https://nid.naver.com/mobile/user/global/pwInquiry?lang=en_US">비밀번호 찾기</a>
+                        <a href="https://nid.naver.com/user2/join/agree?lang=en_US&domain=null">회원가입</a>
+                    </div>
+                </div>
+                <div class="ad-img">
+                    <a href="https://www.lottecastle.co.kr/APT/AT00393/main/index.do" target="_blank">
+                        <img src="https://ssl.pstatic.net/melona/libs/1446/1446936/5ffb8b47651b14edf14d_20230630141837444.jpg"
+                            alt="시흥 롯데캐슬 시그니쳐">
+                    </a>
+                </div>
+                <div class="weather"></div>
+                <div class="finance"></div>
+                <div class="tool-bord"></div>
+                <div class="new-benner"></div>
+            </div>
+        </main>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
